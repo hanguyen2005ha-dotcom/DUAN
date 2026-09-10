@@ -1,1 +1,72 @@
-TẠO THƯ MỤC R NÈ
+#set document(title: "ỨNG DỤNG ĐẠO HÀM GIẢI CÁC BÀI TOÁN THỰC TẾ", author: "Your Name")
+#set page(paper: "a4")
+#set text(font: "New Computer Modern", size: 14pt)
+#align(center)[*MỤC LỤC*]
+= I.LỜI MỞ ĐẦU
+=== 1.1. Lý do chọn đề tài
+=== 1.2. Mục tiêu nghiên cứu
+=== 1.3. Đối tượng nghiên cứu
+=== 1.4. Phương pháp nghiên cứu
+== II. NỘI DUNG
+=== 1. Kiến thức cơ bản
+=== 2. Ứng dụng đạo hàm trong các bài toán thực tế
+ #pad(left: 0.5cm)[2.1. Ứng dụng đạo hàm trong bài toán di chuyển, quãng đường.]
+ #pad(left: 0.5cm)[2.2. Ứng dụng đạo hàm trong bài toán tối ưu chi phí.]
+ 
+#pagebreak()
+#align(center
+)[ *LỜI CẢM ƠN*]
+Kính gửi thầy Nguyễn Đăng Minh Phúc,
+#set par(justify: true)
+Lời đầu tiên, em xin gửi lời cảm ơn chân thành nhất đến thầy. Em xin bày tỏ lòng biết ơn sâu sắc nhất đến thầy đã tận tình hướng dẫn và hỗ trợ em trong suốt quá trình học tập và tìm hiểu bộ môn Tích hợp công nghệ thông tin.
+
+Toán học không chỉ là những con số hay công thức lý thuyết khô khan, mà là ngôn ngữ giúp con người mô hình hóa và giải quyết vô số vấn đề trong đời sống sản xuất, kinh tế, khoa học và kỹ thuật. Trong chương trình Giải tích, đạo hàm đóng vai trò là một trong những công cụ nền tảng và mạnh mẽ nhất. Thông qua khái niệm tốc độ thay đổi và ý nghĩa hình học - vật lý của nó, đạo hàm cho phép chúng ta tối ưu hóa chi phí, dự báo sự phát triển, tìm giá trị lớn nhất, nhỏ nhất cũng như mô tả các quy luật vận động trong thực tiễn.
+
+Tuy nhiên, việc kết nối giữa lý thuyết đạo hàm thuần túy với các ứng dụng thực tế vẫn luôn là một thách thức lớn đối với đa số người học. Nhiều bài toán đời sống đòi hỏi khả năng quan sát, phân tích và chuyển hóa câu chuyện thực tế thành mô hình toán học phù hợp trước khi áp dụng các quy tắc tính toán. Nhận thức được tầm quan trọng và tính ứng dụng cao của đề tài, tôi đã chọn nghiên cứu đề tài: "Ứng dụng đạo hàm giải các bài toán thực tế".
+Để hoàn thành đề tài nghiên cứu này, tôi xin gửi lời cảm ơn chân thành và sâu sắc nhất đến Thầy Nguyễn Đăng Minh Phúc – người đã trực tiếp tận tình hướng dẫn, định hướng tư duy và dành nhiều thời gian đóng góp ý kiến chuyên môn quý báu cho tôi trong suốt quá trình thực hiện.
+
+Dù đã dành nhiều cố gắng và tâm huyết, song do năng lực và thời gian nghiên cứu có hạn nên đề tài khó tránh khỏi những thiếu sót nhất định. Em rất mong nhận được những góp ý chân thành từ quý Thầy/Cô và các bạn để đề tài được hoàn thiện hơn.
+#pad(left: 9.5cm)[
+Em xin chân thành cảm ơn!]
+
+#pad(left: 10.5cm)[Sinh viên thực hiện]
+
+#pad(left: 10.5cm)[Nguyễn Thị Lệ Hà]
+#pagebreak()
+= I. LỜI MỞ ĐẦU
+== 1.1 Lý do chọn đề tài
+#set par(justify: true)
+
+Chươngtrình giáo dục toán học hiện đại không dừng lại ở việc truyền thụ công thức, mà hướng tới việc phát triển năng lực toán học cho người học, đặc biệt là năng lực mô hình hóa toán học — khả năng biến các tình huống thực tế thành bài toán toán học để giải quyết. Đạo hàm là một trong những công cụ Giải tích mạnh mẽ nhất đáp ứng mục tiêu này nhờ khả năng mô tả chính xác sự biến thiên và tốc độ thay đổi của các hiện tượng đời sống.
+
+Trong thực tế, các vấn đề về tối ưu hóa (chi phí tối thiểu, lợi nhuận tối đa, diện tích lớn nhất), các hiện tượng chuyển động trong vật lý hay quy luật tăng trưởng trong kinh tế - xã hội đều đòi hỏi sự can thiệp của đạo hàm. Việc nghiên cứu đề tài giúp làm sáng tỏ mối liên hệ trực tiếp giữa lý thuyết hàn lâm và các ứng dụng phong phú trong đời sống, giúp người học trả lời câu hỏi: "Học đạo hàm để làm gì?"
+
+Qua thực tế học tập, phần lớn sinh viên và học sinh thường gặp rào cản ở khâu "dịch thuật" — chuyển đổi ngôn ngữ thực tế sang ngôn ngữ toán học — mặc dù kỹ năng tính toán thuần túy rất tốt. Đề tài tập trung tháo gỡ điểm nghẽn này bằng cách xây dựng quy trình phân tích và phương pháp giải rõ ràng cho từng dạng bài.
+
+Việc thực hiện đề tài không chỉ giúp bản thân hệ thống hóa kiến thức Chuyên ngành Giải tích một cách bài bản, mà còn là cơ hội rèn luyện tư duy sư phạm, kỹ năng tổng hợp và đóng góp một tài liệu tham khảo hữu ích cho các bạn học sinh, sinh viên quan tâm đến ứng dụng của toán học.
+
+Chính vì những lý do trên, tôi quyết định chọn đề tài: *"Ứng dụng đạo hàm giải các bài toán thực tế"* làm đề tài nghiên cứu của mình.
+
+== 1.2. Mục tiêu nghiên cứu
+#set par(justify: true)
+
+Cung cấp một số bài tập tương đối phong phú, đa dạng về ứng dụng đạo hàm có tác dụng ốt để rèn luyện tư duy và suy luận toán học cho học sinh.
+
+Thông qua đề tài đề xuất các phương pháp, giải pháp có thể giúp học sinh có thể khắc phục những sai lầm khi áp dụng đạo hàm để giải toán thực tế.
+
+Đề xuất các phương pháp, giải pháp
+
+== 1.3. Đối tượng nghiên cứu
+#set par(justify: true)
+Bài toán thực tế liên quan đến đạo hàm
+Đối tượng thực nghiệm: Học sinh THPT (đặc biệt là học sinh lớp 11).
+
+== 1.4. Phương pháp nghiên cứu
+#set par(justify: true)
+- Phương pháp thu thập, phân tích và tổng hợp: Tìm hiểu và đọc sách giáo khoa, sách tham khảo, mạng Internet, các đề thi thử THPT Quốc gia của các trường THPT.
+
+- Phương pháp quan sát: Quan sát việc học tập của học sinh, than khảo ý kiến giáo viên trong tổ Toán.
+
+- Phương pháp thống kê - xử lý dữ liệu: Thống kê các dạng toán, tỷ lệ làm đúng/ sai từng dạng bài toán
+
+
